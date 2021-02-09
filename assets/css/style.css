@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
+body {
+	background: linear-gradient(122.46deg, #FFC93C -0.49%, #B2EBF2 50.28%, #40A8C4 98.43%, #40A8C4 98.44%);
+}
+
+.content{
+	margin-top: 50px;
+	font-family: 'Merriweather', serif;
+}
+
+p {
+	text-align: justify;
+	text-indent: 0.5in;
+	margin-bottom: 10px;
+}
+.navbar{
+	font-family: 'Merriweather', serif;
+	background-color: #4CD3C2;
+}
+
+.nav-link {
+	text-transform: uppercase;
+	margin-right: 19px;
+	font-size: 18px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3)
+}
+
+.footer {
+	background: #0A97B0;
+    height: 100px;
+    width: 100%
+    line-height: 50px;
+}
+
+.card-title {
+	text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+	.navbar-brand{
+		font-size: 36px;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.7)
+	}
+	.dropdown-menu {
+		background-color: #f9fefd;
+		display: block;
+		visibility: hidden;
+		opacity:0;
+		transform: translateY(-20px);
+		transition:.5s ease all;
+	}
+	.dropdown-menu.show {
+		background-color: #f9fefd;
+		display: block;
+		visibility: visible;
+		opacity:1;
+		transform: translateY(0px);
+		transition:.5s ease all;
+	}
+	.jumbotron{
+		background: #0f0f00 url("../img/.jpg");
+		opacity: 0.65;
+		width: 100%;
+		height: 707px;
+		background-size:  cover;
+		background-position: center; 
+		margin-top: 85px;	
+			
+	}
+	.emptywrap{
+		color: black;
+		width: 100%;
+		height: 707px;
+		position: absolute;
+		z-index: 999;
+		display: grid;
+		place-content: center;
+		top: 0;
+		left:0;
+	}
+
+	.emptywrap h1{
+		position: relative;
+	}
+	
